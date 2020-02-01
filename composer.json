@@ -1,0 +1,6 @@
+{
+    "require": {
+        "maxgoody/hydrogen": "^2.0",
+        "maxgoody/helium": "^2.0"
+    }
+}

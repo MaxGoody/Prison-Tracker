@@ -1,0 +1,95 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3f964423657dbfbf8d529f77195a9c6b",
+    "packages": [
+        {
+            "name": "maxgoody/helium",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MaxGoody/Helium.git",
+                "reference": "7a199d3a87a9d6420fdbc7fcf75d5b258af237db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MaxGoody/Helium/zipball/7a199d3a87a9d6420fdbc7fcf75d5b258af237db",
+                "reference": "7a199d3a87a9d6420fdbc7fcf75d5b258af237db",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.1.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "MaxGoody\\Helium\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxim Alexeev",
+                    "email": "maksimgoody@gmail.com"
+                }
+            ],
+            "description": "Helium - Prison PHP SDK.",
+            "time": "2019-08-22T06:42:26+00:00"
+        },
+        {
+            "name": "maxgoody/hydrogen",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MaxGoody/Hydrogen.git",
+                "reference": "eaeb09ff748547d26ac1df1f8cbc7b1905e20a9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MaxGoody/Hydrogen/zipball/eaeb09ff748547d26ac1df1f8cbc7b1905e20a9e",
+                "reference": "eaeb09ff748547d26ac1df1f8cbc7b1905e20a9e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-fileinfo": "*",
+                "ext-json": "*",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MaxGoody\\Hydrogen\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxim Alexeev",
+                    "email": "maksimgoody@gmail.com"
+                }
+            ],
+            "description": "Hydrogen - unofficial VK API PHP SDK.",
+            "time": "2019-07-22T08:37:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
